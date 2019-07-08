@@ -2,6 +2,8 @@
 
 This repository contains the MATLAB code for projecting a sequence of 3D poses onto a sequence of frames. Both sequences were recorded at the same time and they have to be already synchronized. This code is thought to be used with 3D poses obtained using MVN Awinda, but the code provided can easily be adapted to other sources. 
 
+
+
 ## Main script
 To project a sequence of 3D poses onto a sequences of frames one needs to use the interactive app in file **poseProjectionMultiplePnP.m** . In the script one can how to use it to obtain the projections. 
 
@@ -11,7 +13,7 @@ This app is capable of:
 * Show the projection of the 3D poses onto the frames on screen
 * Export the projection as a MP4 file
 
-## Example of usage
+## Workflow
 Here is an example of the workflow that one may use when projecting a new sequence.
 1. Synchronize both sequences. The script will need a synchronization value that will let it map between video frames and data frames. This value is computed by subtracting the data indices to the video frame indices.
 2. Save the sync value and the reference segment in file *getParameters.m*. The reference segment indicates to which element the camera is attached to. For example, if it's equal to 7, it's indicating that the camera is attached to the head segment of the virtual skeleton. If it's equal to -1, it's assumed that the camera is static and in a third person point of view.
@@ -28,3 +30,7 @@ Here is an example of the workflow that one may use when projecting a new sequen
         - Y-Axis: Pointing from top to bottom in the camera image
         - Z-Axis: Perpendicular to X and Y. Pointing in the direction in which the camera is facing.
     * **Export the results as a MP4 video:** Using a preestablished name a set of frames will be exported as a video. The frames to be exported are defined in the variable *video_frames* in *poseProjectionMultiplePnP.m*.
+    
+## Example
+
+One can see that the *Frames* folder is empty, but there is one .mvnx file in the *Data* folder colled *Egocentric_Example.mvnx*. One can download the corresponding sequence of frames from here. 
