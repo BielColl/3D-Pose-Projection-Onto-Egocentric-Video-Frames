@@ -33,4 +33,4 @@ Here is an example of the workflow that one may use when projecting a new sequen
     
 ## Example
 
-One can see that the *Frames* folder is empty, but there is one .mvnx file in the *Data* folder colled *Egocentric_Example.mvnx*. One can download the corresponding sequence of frames from here. 
+One can see that the *Frames* folder is empty, but there is one .mvnx file in the *Data* folder colled *Egocentric_Example.mvnx*. One can download the corresponding sequence of frames from [here](https://www.dropbox.com/s/qdr75fmidd8csdr/Frames.rar?dl=0). 
