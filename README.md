@@ -2,6 +2,7 @@
 
 This repository contains the MATLAB code for projecting a sequence of 3D poses onto a sequence of frames. Both sequences were recorded at the same time and they have to be already synchronized. This code is thought to be used with 3D poses obtained using MVN Awinda, but the code provided can easily be adapted to other sources. 
 
+![Alt Text](https://github.com/BielColl/3D-Pose-Projection-Onto-Egocentric-Video-Frames/blob/master/example.gif)
 
 
 ## Main script
