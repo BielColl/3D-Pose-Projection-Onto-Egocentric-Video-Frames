@@ -22,10 +22,9 @@ Here is an example of the workflow that one may use when projecting a new sequen
 7. Check the results on screen
 8. Decide what to do:
 
-  * **Edit the 2D correspondences :** Simply move the previously selected points to the new position. Then click **n** to go to the next frame. If its the last one, the results will be reprocessed. Then, they will be showed again and one can decide again what to do.
-
+  * **Edit the 2D correspondences :** Simply move the previously selected points to the new position. Then click **n** to go to   the next frame. If its the last one, the results will be reprocessed. Then, they will be showed again and one can decide again what to do.
   * **Fine tune the results:** Using a GUI one can adjust the results for the camera position and orientation. On screen, one will find a projection using the current camera pose, a representation of the skeleton and and the camera using its current pose and a menu. From the menu, one can adjust the camera position and orientation using the local axes from the camera. One also can select which frame is constantly been shown on screen or show a projected sequence. 
     - X-Axis: Pointing from left to right in the camera image
     - Y-Axis: Pointing from top to bottom in the camera image
     - Z-Axis: Perpendicular to X and Y. Pointing in the direction in which the camera is facing.
- * **Export the results as a MP4 video:** Using a preestablished name a set of frames will be exported as a video. The frames to be exported are defined in the variable *video_frames* in *poseProjectionMultiplePnP.m*.
+  * **Export the results as a MP4 video:** Using a preestablished name a set of frames will be exported as a video. The frames to be exported are defined in the variable *video_frames* in *poseProjectionMultiplePnP.m*.
